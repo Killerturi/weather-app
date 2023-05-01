@@ -1,10 +1,11 @@
 import "./App.css";
-import WeatherApp1 from "./Components/WeatherApp1";
+import WeatherApp from "./Components/WeatherApp";
 
 function App() {
   return (
     <div className="App">
       <h1>weather app</h1>
+      <WeatherApp />
     </div>
   );
 }
